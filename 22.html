@@ -1,0 +1,1915 @@
+<!--
+=========================================================
+* Material Kit 2 - v3.0.4
+=========================================================
+
+* Product Page:  https://www.creative-tim.com/product/material-kit 
+* Copyright 2022 Creative Tim (https://www.creative-tim.com)
+* Coded by www.creative-tim.com
+
+ =========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+
+<title>
+  
+
+  
+    iGas
+
+  
+</title>
+
+
+
+<!--     Fonts and icons     -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+
+<!-- Nucleo Icons -->
+<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+<link href="/_product.scss" rel="stylesheet" />   
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+<!-- CSS Files -->
+
+
+
+<link id="pagestyle" href="./assets/css/material-kit.css?v=3.0.4" rel="stylesheet" />
+
+<style>
+    
+
+ .tp-product-title {
+    font-size: 18px;
+    color: var(--tp-common-black);
+    font-weight: 500;
+}
+ .tp-product-title:hover {
+    color: var(--tp-theme-1);
+}
+ .tpproduct__img {
+    margin-bottom: 45px;
+    position: relative;
+}
+ .tpproduct__img::after {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(41, 41, 48, 0.6);
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+ .tpproduct__meta span {
+    color: #777B83;
+    font-size: 18px;
+    font-weight: 500;
+}
+ .tpproduct__meta .product-rating {
+    color: #F7931E;
+    margin-bottom: 5px;
+}
+ .tpproduct:hover .tpproduct__img::after {
+    opacity: 1;
+    visibility: visible;
+}
+ .tpproduct:hover .tpproduct__img .tp-product-icon {
+    opacity: 1;
+    visibility: visible;
+    bottom: 40%;
+}
+ .tp-product-icon {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0px 10px;
+    z-index: 2;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+ .tp-product-icon a {
+    height: 50px;
+    width: 50px;
+    background-color: var(--tp-theme-primary);
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    font-weight: 300;
+    color: var(--tp-common-black);
+    margin: 0px 6px;
+}
+ .tp-product-icon a:hover {
+    background-color: var(--tp-theme-1);
+    color: var(--tp-common-white);
+}
+ .productdetails {
+    padding-left: 35px;
+}
+ .productdetails__content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #777B83;
+    line-height: 26px;
+    padding-bottom: 10px;
+}
+ .productdetails__ratting i {
+    color: var(--tp-theme-primary);
+    font-size: 14px;
+}
+ .productdetails__ratting span {
+    font-size: 14px;
+    color: var(--tp-common-black);
+    font-weight: 500;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+ .productdetails__ratting h4 {
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--tp-common-black);
+    padding-bottom: 25px;
+}
+ .productdetails__ratting h4 del {
+    font-size: 20px;
+    font-weight: 500;
+    color: #B9B9B9;
+}
+ .productdetails__model {
+    padding-bottom: 45px;
+}
+ .productdetails__model h5 {
+    font-size: 16px;
+    color: var(--tp-common-black);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+ .productdetails__model a {
+    font-size: 12px;
+    color: #777B83;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #F7F8FD;
+    height: 25px;
+    display: inline-block;
+    padding: 0px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+ .productdetails__model a:hover {
+    background-color: var(--tp-theme-primary);
+    color: var(--tp-common-black);
+}
+ .pd-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--tp-common-black);
+    padding-bottom: 10px;
+}
+/*----------------------------------------*/
+/* 19. SHOP css start 
+/*----------------------------------------*/
+ .productdetails-tabs {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+ .tpshopitem:hover .tpshopitem__thumb img {
+    transform: scale(1.2);
+}
+ .tpshopitem:hover .tpshopitem__thumb-icon {
+    bottom: 14px;
+    opacity: 1;
+    visibility: visible;
+}
+ .tpshopitem__thumb {
+    border: 1px solid #ECEFF4;
+    border-radius: 5px;
+}
+ .tpshopitem__thumb img {
+    width: 100%;
+}
+ .tpshopitem__thumb-icon {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+}
+ .tpshopitem__thumb-icon a {
+    margin: 0 5px;
+    height: 45px;
+    width: 45px;
+    line-height: 45px;
+    border: 1px solid var(--tp-theme-blue);
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #0E63FF;
+    color: var(--tp-common-white);
+}
+ .tpshopitem__thumb-icon a:hover {
+    background-color: var(--tp-theme-pink);
+    border: 1px solid var(--tp-theme-pink);
+}
+ .tpshopitem__content p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #777B83;
+    margin-bottom: 6px;
+}
+ .tpshopitem__title {
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+}
+ .tpshopitem__title a {
+    background-image: linear-gradient(#0E63FF, #0E63FF), linear-gradient(#0E63FF, #0E63FF);
+    background-repeat: no-repeat;
+    background-position: 100% 100%, 0% 100%;
+    background-size: 0% 1px, 0 1px;
+    display: inline;
+}
+ .tpshopitem__title a:hover {
+    background-size: 0% 1px, 100% 1px;
+    color: var(--tp-theme-blue);
+}
+ .tpshopitem__review i {
+    color: #F7931E;
+}
+ .tpshopitem__product-base {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--tp-common-white);
+    padding: 6px 13px;
+    background: #FD4766;
+    border-radius: 5px;
+    line-height: 1;
+}
+ .tpproduct span {
+    font-weight: 500;
+    font-size: 15px;
+}
+ .tpfilter {
+    justify-content: end;
+}
+ .tpfilter span {
+    font-weight: 500;
+    font-size: 15px;
+}
+ .tpfilter .nice-select {
+    padding-left: 5px;
+    border: none;
+    color: var(--tp-theme-primary);
+}
+ .productthumb img {
+    border-radius: 25px;
+}
+ .product__details-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #777B83;
+}
+ .product-dtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.3;
+}
+ .product-dinfo span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #141515;
+}
+ .product-rating a {
+    color: #FFDC60;
+}
+ .product-dprice {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+}
+ .product-model-title {
+    font-family: 'Archivo';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    color: #0B0B0B;
+}
+ .product-quantity-title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #0B0B0B;
+}
+ .product-quantity input {
+    color: var(--tp-theme-primary);
+    border: none;
+    width: 40px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+ .product-model-list a {
+    font-size: 12px;
+    font-weight: 600;
+    color: #777B83;
+    background: #F7F8FD;
+    display: inline-block;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+ .product-model-list a:last-child {
+    margin-right: 0;
+}
+ .product-model-list a:hover {
+    background: var(--tp-theme-blue);
+    color: var(--tp-common-white);
+}
+ .tp-product-quantity .cart-minus, .tp-product-quantity .cart-plus {
+    cursor: pointer;
+    color: #8D8884;
+}
+ .tp-product-quantity .cart-minus:hover, .tp-product-quantity .cart-plus:hover {
+    color: var(--tp-theme-primary);
+}
+ .tp-product-quantity input {
+    height: 30px;
+    width: 32px;
+    font-size: 14px;
+    border: none;
+    font-weight: 700;
+    text-align: center;
+}
+ .product-rating {
+    margin-right: 20px;
+}
+ .product-rating a {
+    font-size: 16px;
+    color: #FFDC60;
+}
+ .product-dinfo {
+    display: flex;
+}
+ .product-dprice del {
+    font-size: 20px;
+    color: #B9B9B9;
+}
+ .pro-details-nav {
+    background: #F9FAFB;
+    display: inline-block;
+    padding: 7px 7px;
+}
+ .pro-details-nav-btn {
+    border: none;
+}
+ .pro-details-nav-btn li {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--tp-text-body);
+    position: relative;
+}
+ .pro-details-nav-btn li button span {
+    position: relative;
+    z-index: 9;
+}
+ .pro-details-nav-btn li button::before {
+    content: "";
+    height: 100%;
+    width: 102%;
+    top: 0;
+    left: -1px;
+    background: #fff;
+    position: absolute;
+    z-index: 3;
+    opacity: 0;
+    visibility: hidden;
+}
+ .pro-details-nav-btn li button.active::before {
+    opacity: 1;
+    visibility: visible;
+}
+ .pro-details-nav-btn li::after {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 1px;
+    background: #DFE3E9;
+    top: 50%;
+    transform: translateY(-50%);
+}
+ .pro-details-nav-btn li:last-child::after {
+    display: none;
+}
+ .pro-details-nav-btn li .nav-links {
+    padding: 20px 45px;
+    border-radius: 5px;
+}
+ .pro-details-nav-btn li .nav-links.active {
+    background: var(--tp-common-white);
+    color: var(--tp-common-black);
+}
+ .tab-para p {
+    font-size: 16px;
+    line-height: 30px;
+}
+ .comments-box {
+    margin-bottom: 50px;
+}
+ .user-rating ul li {
+    display: inline-block;
+    color: #FFDC60;
+}
+ .comments-text span, .comments-text p {
+    font-size: 14px;
+    color: #777777;
+    line-height: 26px;
+}
+ .comment-title p {
+    color: #777777;
+    font-size: 16px;
+}
+ .comment-rating span {
+    font-weight: 500;
+    margin-right: 5px;
+}
+ .comment-rating ul li {
+    display: inline-block;
+    color: #FFDC60;
+}
+ .comment-input textarea {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 20px;
+    border: 1px solid #e7e7e7;
+    padding: 20px;
+}
+ .comment-input textarea:focus {
+    outline: 0;
+    border: 1px solid var(--tp-theme-primary);
+}
+ .comment-input input {
+    width: 100%;
+    height: 50px;
+    resize: none;
+    outline: 0;
+    border: 1px solid #e7e7e7;
+    padding: 8px 20px;
+    margin-bottom: 30px;
+}
+ .comment-input input:focus {
+    border: 1px solid var(--tp-theme-primary);
+}
+ .comments-avatar {
+    flex: 0 0 auto;
+}
+ .table .add-info {
+    font-size: 18px;
+    font-weight: 500;
+}
+ .table td {
+    padding: 18px;
+}
+ .tp-comments-title {
+    font-size: 24px;
+    color: var(--tp-common-black);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+ .avatar-name b {
+    color: var(--tp-common-black);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+ .shop-faq .accordion-header button {
+    font-size: 18px;
+    padding: 20px 55px 20px 30px;
+}
+ .shop-faq .accordion-content p br {
+    display: none;
+}
+ .shop-faq .accordion-content p {
+    padding: 0 75px 20px 30px;
+}
+ .comment-title {
+    font-size: 24px;
+    color: var(--tp-common-black);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+ .tp-product-slider-title {
+    color: var(--tp-common-black);
+    font-size: 30px;
+    font-weight: 500;
+}
+.pro-details-nav-btn li::after {
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 1px;
+    background: #DFE3E9;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tp-custom-accordio .accordion-items {
+    margin-bottom: 20px;
+}
+ .tp-custom-accordio .accordion-buttons {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 40px 45px;
+    background-color: var(--tp-common-white);
+    color: #212121;
+    border-radius: 10px 10px 0 0;
+}
+ .tp-custom-accordio .accordion-buttons::after {
+    position: absolute;
+    content: "\f063";
+    font-family: 'Font Awesome 5 Pro';
+    background-image: none;
+    top: 45px;
+    right: 45px;
+    color: #B8BCC8;
+    width: auto;
+    height: auto;
+    font-weight: 500;
+    font-size: 14px;
+}
+ .tp-custom-accordio .accordion-buttons.collapsed::after {
+    content: '\f062';
+}
+ .tp-custom-accordio .collapsed {
+    border-radius: 10px 10px 10px 10px;
+}
+ .tp-custom-accordio .accordion-body {
+    background-color: var(--tp-common-white);
+    padding: 20px 45px;
+    box-shadow: 0px 25px 32px 0px rgba(0, 0, 0, 0.06);
+    position: relative;
+    z-index: 1;  
+    border-radius: 0 0px 10px 10px;
+    font-size: 16px;
+}
+ .tp-custom-accordio .accordion-body::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: var(--tp-grey-1);
+    top: 0;
+    left: 45px;
+    right: 45px;
+}
+ .faq-accordio-border .accordion-items {
+    background-color: var(--tp-common-white);
+    border: 1px solid #F5F5F5;
+    border-radius: 10px;
+}
+a, button {
+    color: inherit;
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.bg-gradient-primary {
+    background-color: black;
+}
+.bg-gradient-primary {
+    background-image: none !important;
+} 
+.opacity-4 {
+    opacity: 0.7 !important;
+} 
+.footer .footer-logo {
+    max-width: 6rem;
+}  
+.min-vh-75 {
+    min-height: 75vh !important;
+}  
+.navbar .navbar-brand {
+    font-size: 20px;
+}
+@media (min-width: 768px){
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+}
+.col-lg-9 {
+    flex: 0 0 auto;
+    width: 90%;
+} 
+.rotating-card-container .card .back:after, .rotating-card-container .card .front:after {
+    background-color: hsl(214, 96%, 55%) !important;  
+    background-image: none !important;          
+}
+.text-primary {
+    color: hsl(214, 96%, 55%) !important;
+} 
+.card-buttons{
+  display: inline-block; 
+    font-size: 14px;
+    font-weight: 700;
+    color: hsl(214, 96%, 55%) !important;
+    background: hsl(214, 96%, 55%, .1) !important;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    padding: 0 35px;
+    position: relative;
+    z-index: 1;
+    border:none;  
+    overflow: hidden;
+    border-radius: 10px;
+    text-transform: uppercase; 
+}
+img.w-100 {
+    border-radius: 10px;
+}  
+btn-primary, .btn.bg-gradient-primary {
+    box-shadow: none; 
+    background: hsl(214, 96%, 55%) !important; 
+    color:white !important;  
+}   
+
+@font-face {
+  font-family: 'swiper-icons';
+  src: url('data:application/font-woff;charset=utf-8;base64, d09GRgABAAAAAAZgABAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAAAGRAAAABoAAAAci6qHkUdERUYAAAWgAAAAIwAAACQAYABXR1BPUwAABhQAAAAuAAAANuAY7+xHU1VCAAAFxAAAAFAAAABm2fPczU9TLzIAAAHcAAAASgAAAGBP9V5RY21hcAAAAkQAAACIAAABYt6F0cBjdnQgAAACzAAAAAQAAAAEABEBRGdhc3AAAAWYAAAACAAAAAj//wADZ2x5ZgAAAywAAADMAAAD2MHtryVoZWFkAAABbAAAADAAAAA2E2+eoWhoZWEAAAGcAAAAHwAAACQC9gDzaG10eAAAAigAAAAZAAAArgJkABFsb2NhAAAC0AAAAFoAAABaFQAUGG1heHAAAAG8AAAAHwAAACAAcABAbmFtZQAAA/gAAAE5AAACXvFdBwlwb3N0AAAFNAAAAGIAAACE5s74hXjaY2BkYGAAYpf5Hu/j+W2+MnAzMYDAzaX6QjD6/4//Bxj5GA8AuRwMYGkAPywL13jaY2BkYGA88P8Agx4j+/8fQDYfA1AEBWgDAIB2BOoAeNpjYGRgYNBh4GdgYgABEMnIABJzYNADCQAACWgAsQB42mNgYfzCOIGBlYGB0YcxjYGBwR1Kf2WQZGhhYGBiYGVmgAFGBiQQkOaawtDAoMBQxXjg/wEGPcYDDA4wNUA2CCgwsAAAO4EL6gAAeNpj2M0gyAACqxgGNWBkZ2D4/wMA+xkDdgAAAHjaY2BgYGaAYBkGRgYQiAHyGMF8FgYHIM3DwMHABGQrMOgyWDLEM1T9/w8UBfEMgLzE////P/5//f/V/xv+r4eaAAeMbAxwIUYmIMHEgKYAYjUcsDAwsLKxc3BycfPw8jEQA/gZBASFhEVExcQlJKWkZWTl5BUUlZRVVNXUNTQZBgMAAMR+E+gAEQFEAAAAKgAqACoANAA+AEgAUgBcAGYAcAB6AIQAjgCYAKIArAC2AMAAygDUAN4A6ADyAPwBBgEQARoBJAEuATgBQgFMAVYBYAFqAXQBfgGIAZIBnAGmAbIBzgHsAAB42u2NMQ6CUAyGW568x9AneYYgm4MJbhKFaExIOAVX8ApewSt4Bic4AfeAid3VOBixDxfPYEza5O+Xfi04YADggiUIULCuEJK8VhO4bSvpdnktHI5QCYtdi2sl8ZnXaHlqUrNKzdKcT8cjlq+rwZSvIVczNiezsfnP/uznmfPFBNODM2K7MTQ45YEAZqGP81AmGGcF3iPqOop0r1SPTaTbVkfUe4HXj97wYE+yNwWYxwWu4v1ugWHgo3S1XdZEVqWM7ET0cfnLGxWfkgR42o2PvWrDMBSFj/IHLaF0zKjRgdiVMwScNRAoWUoH78Y2icB/yIY09An6AH2Bdu/UB+yxopYshQiEvnvu0dURgDt8QeC8PDw7Fpji3fEA4z/PEJ6YOB5hKh4dj3EvXhxPqH/SKUY3rJ7srZ4FZnh1PMAtPhwP6fl2PMJMPDgeQ4rY8YT6Gzao0eAEA409DuggmTnFnOcSCiEiLMgxCiTI6Cq5DZUd3Qmp10vO0LaLTd2cjN4fOumlc7lUYbSQcZFkutRG7g6JKZKy0RmdLY680CDnEJ+UMkpFFe1RN7nxdVpXrC4aTtnaurOnYercZg2YVmLN/d/gczfEimrE/fs/bOuq29Zmn8tloORaXgZgGa78yO9/cnXm2BpaGvq25Dv9S4E9+5SIc9PqupJKhYFSSl47+Qcr1mYNAAAAeNptw0cKwkAAAMDZJA8Q7OUJvkLsPfZ6zFVERPy8qHh2YER+3i/BP83vIBLLySsoKimrqKqpa2hp6+jq6RsYGhmbmJqZSy0sraxtbO3sHRydnEMU4uR6yx7JJXveP7WrDycAAAAAAAH//wACeNpjYGRgYOABYhkgZgJCZgZNBkYGLQZtIJsFLMYAAAw3ALgAeNolizEKgDAQBCchRbC2sFER0YD6qVQiBCv/H9ezGI6Z5XBAw8CBK/m5iQQVauVbXLnOrMZv2oLdKFa8Pjuru2hJzGabmOSLzNMzvutpB3N42mNgZGBg4GKQYzBhYMxJLMlj4GBgAYow/P/PAJJhLM6sSoWKfWCAAwDAjgbRAAB42mNgYGBkAIIbCZo5IPrmUn0hGA0AO8EFTQAA') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+  --swiper-theme-color: #007aff;
+}
+.swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  display: flex;
+  transition-property: transform;
+  box-sizing: content-box;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate3d(0px, 0, 0);
+}
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap;
+}
+.swiper-container-multirow-column > .swiper-wrapper {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.swiper-container-free-mode > .swiper-wrapper {
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+.swiper-container-pointer-events {
+  touch-action: pan-y;
+}
+.swiper-container-pointer-events.swiper-container-vertical {
+  touch-action: pan-x;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+/* Auto Height */
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-container-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+/* 3D Effects */
+.swiper-container-3d {
+  perspective: 1200px;
+}
+.swiper-container-3d .swiper-wrapper,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-cube-shadow {
+  transform-style: preserve-3d;
+}
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 10;
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+}
+/* CSS Mode */
+.swiper-container-css-mode > .swiper-wrapper {
+  overflow: auto;
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
+}
+.swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+:root {
+  --swiper-navigation-size: 44px;
+  /*
+  --swiper-navigation-color: var(--swiper-theme-color);
+  */
+}
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0.7;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-family: swiper-icons;
+  text-transform: none !important;
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: 10px;
+  right: auto;
+}
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: 'prev';
+}
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+  right: 10px;
+  left: auto;
+}
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-prev:after {
+  content: 'next';
+}
+.swiper-button-prev.swiper-button-white,
+.swiper-button-next.swiper-button-white {
+  --swiper-navigation-color: #ffffff;
+}
+.swiper-button-prev.swiper-button-black,
+.swiper-button-next.swiper-button-black {
+  --swiper-navigation-color: #000000;
+}
+.swiper-button-lock {
+  display: none;
+}
+:root {
+  /*
+  --swiper-pagination-color: var(--swiper-theme-color);
+  */
+}
+.swiper-pagination {
+  position: absolute;
+  text-align: center;
+  transition: 300ms opacity;
+  transform: translate3d(0, 0, 0);
+  z-index: 10;
+}
+.swiper-pagination.swiper-pagination-hidden {
+  opacity: 0;
+}
+/* Common Styles */
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+  bottom: 10px;
+  left: 0;
+  width: 100%;
+}
+/* Bullets */
+.swiper-pagination-bullets-dynamic {
+  overflow: hidden;
+  font-size: 0;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transform: scale(0.33);
+  position: relative;
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active {
+  transform: scale(1);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-main {
+  transform: scale(1);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-prev-prev {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next {
+  transform: scale(0.66);
+}
+.swiper-pagination-bullets-dynamic .swiper-pagination-bullet-active-next-next {
+  transform: scale(0.33);
+}
+.swiper-pagination-bullet {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background: #000;
+  opacity: 0.2;
+}
+button.swiper-pagination-bullet {
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  cursor: pointer;
+}
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+}
+.swiper-container-vertical > .swiper-pagination-bullets {
+  right: 10px;
+  top: 50%;
+  transform: translate3d(0px, -50%, 0);
+}
+.swiper-container-vertical > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 6px 0;
+  display: block;
+}
+.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+}
+.swiper-container-vertical > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  display: inline-block;
+  transition: 200ms transform, 200ms top;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+  margin: 0 4px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic {
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 200ms transform, 200ms left;
+}
+.swiper-container-horizontal.swiper-container-rtl > .swiper-pagination-bullets-dynamic .swiper-pagination-bullet {
+  transition: 200ms transform, 200ms right;
+}
+/* Progress */
+.swiper-pagination-progressbar {
+  background: rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: var(--swiper-pagination-color, var(--swiper-theme-color));
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transform-origin: left top;
+}
+.swiper-container-rtl .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  transform-origin: right top;
+}
+.swiper-container-horizontal > .swiper-pagination-progressbar,
+.swiper-container-vertical > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 0;
+}
+.swiper-container-vertical > .swiper-pagination-progressbar,
+.swiper-container-horizontal > .swiper-pagination-progressbar.swiper-pagination-progressbar-opposite {
+  width: 4px;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.swiper-pagination-white {
+  --swiper-pagination-color: #ffffff;
+}
+.swiper-pagination-black {
+  --swiper-pagination-color: #000000;
+}
+.swiper-pagination-lock {
+  display: none;
+}
+/* Scrollbar */
+.swiper-scrollbar {
+  border-radius: 10px;
+  position: relative;
+  -ms-touch-action: none;
+  background: rgba(0, 0, 0, 0.1);
+}
+.swiper-container-horizontal > .swiper-scrollbar {
+  position: absolute;
+  left: 1%;
+  bottom: 3px;
+  z-index: 50;
+  height: 5px;
+  width: 98%;
+}
+.swiper-container-vertical > .swiper-scrollbar {
+  position: absolute;
+  right: 3px;
+  top: 1%;
+  z-index: 50;
+  width: 5px;
+  height: 98%;
+}
+.swiper-scrollbar-drag {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  left: 0;
+  top: 0;
+}
+.swiper-scrollbar-cursor-drag {
+  cursor: move;
+}
+.swiper-scrollbar-lock {
+  display: none;
+}
+.swiper-zoom-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.swiper-zoom-container > img,
+.swiper-zoom-container > svg,
+.swiper-zoom-container > canvas {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.swiper-slide-zoomed {
+  cursor: move;
+}
+/* Preloader */
+:root {
+  /*
+  --swiper-preloader-color: var(--swiper-theme-color);
+  */
+}
+.swiper-lazy-preloader {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -21px;
+  margin-top: -21px;
+  z-index: 10;
+  transform-origin: 50%;
+  animation: swiper-preloader-spin 1s infinite linear;
+  box-sizing: border-box;
+  border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));
+  border-radius: 50%;
+  border-top-color: transparent;
+}
+.swiper-lazy-preloader-white {
+  --swiper-preloader-color: #fff;
+}
+.swiper-lazy-preloader-black {
+  --swiper-preloader-color: #000;
+}
+@keyframes swiper-preloader-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* a11y */
+.swiper-container .swiper-notification {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  opacity: 0;
+  z-index: -1000;
+}
+.swiper-container-fade.swiper-container-free-mode .swiper-slide {
+  transition-timing-function: ease-out;
+}
+.swiper-container-fade .swiper-slide {
+  pointer-events: none;
+  transition-property: opacity;
+}
+.swiper-container-fade .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-fade .swiper-slide-active,
+.swiper-container-fade .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-cube {
+  overflow: visible;
+}
+.swiper-container-cube .swiper-slide {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 1;
+  visibility: hidden;
+  transform-origin: 0 0;
+  width: 100%;
+  height: 100%;
+}
+.swiper-container-cube .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-cube.swiper-container-rtl .swiper-slide {
+  transform-origin: 100% 0;
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-cube .swiper-slide-active,
+.swiper-container-cube .swiper-slide-next,
+.swiper-container-cube .swiper-slide-prev,
+.swiper-container-cube .swiper-slide-next + .swiper-slide {
+  pointer-events: auto;
+  visibility: visible;
+}
+.swiper-container-cube .swiper-slide-shadow-top,
+.swiper-container-cube .swiper-slide-shadow-bottom,
+.swiper-container-cube .swiper-slide-shadow-left,
+.swiper-container-cube .swiper-slide-shadow-right {
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.swiper-container-cube .swiper-cube-shadow {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  z-index: 0;
+}
+.swiper-container-cube .swiper-cube-shadow:before {
+  content: '';
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-filter: blur(50px);
+  filter: blur(50px);
+}
+.swiper-container-flip {
+  overflow: visible;
+}
+.swiper-container-flip .swiper-slide {
+  pointer-events: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  z-index: 1;
+}
+.swiper-container-flip .swiper-slide .swiper-slide {
+  pointer-events: none;
+}
+.swiper-container-flip .swiper-slide-active,
+.swiper-container-flip .swiper-slide-active .swiper-slide-active {
+  pointer-events: auto;
+}
+.swiper-container-flip .swiper-slide-shadow-top,
+.swiper-container-flip .swiper-slide-shadow-bottom,
+.swiper-container-flip .swiper-slide-shadow-left,
+.swiper-container-flip .swiper-slide-shadow-right {
+  z-index: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.swiper-slide {
+    width: 30%;
+}
+.col-lg-7.mx-auto {
+    margin: 0px !important;
+}  
+</style>  
+
+</head>
+
+<body class="index-page bg-gray-200">
+  
+  
+  <!-- Navbar -->
+  <div class="container position-sticky z-index-sticky top-0" style="max-width: 100% !important;">  
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4" style="    margin-left: 0px !important;
+        margin-right: 0px !important;
+        border-radius: 0px;
+        margin-top: 0px !important;">  
+          <div class="container-fluid px-0">
+            <a class="navbar-brand font-weight-bolder ms-sm-3" href="index.html" rel="tooltip"  data-placement="bottom">
+iGAS<span style="color: hsl(214, 96%, 55%);">USA</span>     
+            </a>
+            <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon mt-2">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+              </span> 
+            </button>
+            <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
+              <ul class="navbar-nav navbar-nav-hover ms-auto">
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuPages" data-bs-toggle="dropdown" aria-expanded="false">
+                    
+                    Refrigerant
+                    <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
+                  </a>
+                  <div class="dropdown-menu dropdown-menu-animation ms-n3 dropdown-md p-3 border-radius-xl mt-0 mt-lg-3" aria-labelledby="dropdownMenuPages">
+                    <div class="d-none d-lg-block">
+                      <a href="refrigerant.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                          All     
+                        </h6>
+                        </a>
+                      <a href="22.html" class="dropdown-item border-radius-md">
+                        <span>R-22</span>
+                      </a>
+                      <a href="134.html" class="dropdown-item border-radius-md">
+                        <span>R-134a</span>
+                      </a>
+                      <a href="407a.html" class="dropdown-item border-radius-md">
+                        <span>R-407A</span>
+                      </a>
+                      <a href="407c.html" class="dropdown-item border-radius-md">
+                        <span>R-407C</span>
+                      </a>
+                      <a href="410.html" class="dropdown-item border-radius-md">
+                        <span>R-410A</span>
+                      </a>
+                      <a href="422b.html" class="dropdown-item border-radius-md">
+                        <span>R-422B</span>
+                      </a>
+                      <a href="422d.html" class="dropdown-item border-radius-md">
+                        <span>R-422D</span>
+                      </a>
+                      <a href="438.html" class="dropdown-item border-radius-md">
+                        <span>R-438A</span>
+                      </a>
+                      <a href="507.html" class="dropdown-item border-radius-md">
+                        <span>R-507</span>  
+                      </a> 
+                    </div>
+                    <div class="d-lg-none">
+                      <a href="refrigerant.html">
+                        <h6 class="dropdown-header text-dark font-weight-bolder d-flex align-items-center px-1">
+                          All     
+                        </h6>
+                        </a>  
+                      <a href="22.html" class="dropdown-item border-radius-md">
+                        <span>R-22</span>
+                      </a>
+                      <a href="134.html" class="dropdown-item border-radius-md">
+                        <span>R-134a</span>
+                      </a>
+                      <a href="407a.html" class="dropdown-item border-radius-md">
+                        <span>R-407A</span>
+                      </a>
+                      <a href="407c.html" class="dropdown-item border-radius-md">
+                        <span>R-407C</span>
+                      </a>
+                      <a href="410.html" class="dropdown-item border-radius-md">
+                        <span>R-410A</span>
+                      </a>
+                      <a href="422b.html" class="dropdown-item border-radius-md">
+                        <span>R-422B</span>
+                      </a>
+                      <a href="422d.html" class="dropdown-item border-radius-md">
+                        <span>R-422D</span>
+                      </a>
+                      <a href="438.html" class="dropdown-item border-radius-md">
+                        <span>R-438A</span>
+                      </a>
+                      <a href="507.html" class="dropdown-item border-radius-md">
+                        <span>R-507</span>  
+                      </a>  
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="reclamation.html" class="nav-link ps-2 d-flex cursor-pointer align-items-center">
+                    Reclamation   
+                  </a>
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="oem.html" class="nav-link ps-2 d-flex cursor-pointer align-items-center" >
+                    OEM
+                  </a> 
+                </li>
+                <li class="nav-item dropdown dropdown-hover mx-2">
+                  <a href="components.html" class="nav-link ps-2 d-flex cursor-pointer align-items-center">
+                    Components 
+                  </a> 
+                </li>
+                <li class="nav-item my-auto ms-3 ms-lg-0"> 
+                  <a style="
+                  background: transparent;
+                  color: black;
+              " href="contact-us.html" class="btn btn-sm  bg-gradient-primary  mb-0 me-1 mt-2 mt-md-0">Contact Us</a> 
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- End Navbar -->
+      </div>
+    </div>
+  </div> 
+
+  
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header-2">
+  <div class="page-header min-vh-75 relative" style="background-image: url('./IMG_1682.jpg')">  
+    <span class="mask bg-gradient-primary opacity-4"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 mx-auto">
+          <h1 class="text-white pt-3 mt-n5">R-22 Refrigerant</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="card card-body blur shadow-blur mx-3 mx-md-4 mt-n6">
+    <div class="tp-product-details-area pt-130">
+        <div class="container">
+           <div class="row align-items-center justify-content-center">
+              <div class="col-xl-5 col-lg-6 col-12">
+                 <div class="tp-product-img">
+                    <img style="width:500px" src="22.png" alt="">   
+                 </div>
+              </div>
+              <div class="col-xl-5 col-lg-6 col-12">
+                 <div class="productdetails">
+                    <div class="productdetails__content">
+                       <h3 class="pd-title">R-22 Refrigerant</h3> 
+                       <p>R-22 has been the dominant refrigerant in residential and commercial air conditioning and large chillers for air conditioning and industrial process cooling and for medium and low-temperature commercial refrigeration applications.</p>
+                    </div> 
+                    <div class="productdetails__ratting" style="margin-bottom: 10px;">  
+                       Delivery: Continental United States and Mexico
+                    </div>
+                    <div class="productdetails__model">
+                       <h5>Sizes</h5>  
+                       <a href="#">30lb</a>
+                       <a href="#">125lb</a>
+                       <a href="#">1000lb</a>
+                       <a href="#">44000lb</a> 
+                    </div>
+                    <div class="productdetails__button">
+                       <button class="tp-btn-yellow mb-20 mr-20" style="background: hsl(214, 96%, 55%);
+                       color: white;
+                       width: 45%;
+                       padding: 10px 30px;
+                       border-radius: 10px;">SDS For R-22</button>
+                       <button class="tp-btn-sm-sky" style="background: hsl(214, 96%, 55%);
+                       color: white;
+                       width: 45%;
+                       padding: 10px 30px;
+                       border-radius: 10px;">Pressure Temp Chart</button> 
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <div class="productdetails-tabs">
+                 <div class="row justify-content-center">
+                    <div class="col-xl-10 col-lg-12 col-12">
+                       <div class="product-additional-tab">
+                          <div class="pro-details-nav mb-40">
+                             <ul class="nav nav-tabs pro-details-nav-btn" id="myTabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                   <button class="nav-links active" id="home-tab-1" data-bs-toggle="tab" data-bs-target="#home-1" type="button" role="tab" aria-controls="home-1" aria-selected="true"><span>Product Details</span></button> 
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                   <button class="nav-links" id="information-tab" data-bs-toggle="tab" data-bs-target="#additional-information" type="button" role="tab" aria-controls="additional-information" aria-selected="false"><span>Specifications</span></button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                   <button class="nav-links" id="size-chart-tab" data-bs-toggle="tab" data-bs-target="#chart" type="button" role="tab" aria-controls="chart" aria-selected="false"><span>Faq</span></button>
+                                </li>
+                             </ul>
+                          </div>
+                          <div class="tab-content tp-content-tab" id="myTabContent-2"> 
+                             <div class="tab-para tab-pane fade show active" id="home-1" role="tabpanel" aria-labelledby="home-tab-1">
+                                <p class="mb-30"> R-22 has been the dominant refrigerant in residential and commercial air conditioning and large chillers for air conditioning and industrial process cooling and for medium and low-temperature commercial refrigeration applications. It can also be used as an aerosol propellant for pesticide and paint, or as a fire extinguishing agent. It is a primary feedstock for fluoropolymers.</p>
+                                <p>           R-22 has been subject to reduced production and restriction in new equipment since 2010, and production of the refrigerant is to end in 2020. The use of R-22 is allowed until the supply has been depleted. R-22 is non toxic and non flammable meeting the highest A1 Classification.</p>
+                             </div>
+                             <div class="tab-pane fade" id="additional-information" role="tabpanel"
+                             aria-labelledby="information-tab">
+                                <div class="product__details-info table-responsive">
+                                   <table class="table table-striped">
+                                      <tbody>
+                                         <tr>
+                                            <td class="add-info">ASHRAE Standard 34 Safety Rating</td>
+                                            <td class="add-info-list">A1</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Critical Density (Lb/Ft³)</td>
+                                            <td class="add-info-list">32.7</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Critical Pressure (psia)</td>
+                                            <td class="add-info-list"> 723.7</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Critical Temperature ( Deg. F)</td>
+                                            <td class="add-info-list">205.1</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Heat of Vaporization (bp, BTU/Lb.)</td>
+                                            <td class="add-info-list">100.5</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Liquid Density (70 F, Lb/Ft³)</td>
+                                            <td class="add-info-list">75.27 </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Molecular Weight</td>
+                                            <td class="add-info-list">86.5</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Refrigerant</td>
+                                            <td class="add-info-list">R22</td>
+                                         </tr>
+                                         <tr>
+                                            <td class="add-info">Vapor Density (bp, Lb./Ft³)</td>
+                                            <td  class="add-info-list">0.29</td>
+                                         </tr>
+                                      </tbody>
+                                  </table>
+                                </div>
+                             </div>
+                             <div class="tab-pane fade" id="chart" role="tabpanel" aria-labelledby="size-chart-tab">
+                                <div class="tp-custom-accordio faq-accordio-border">
+                                   <div class="accordion" id="accordionExample">
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                               What is refrigerant?
+                                            </button>
+                                         </h2>
+                                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               A refrigerant is a substance or mixture, usually a fluid, used in a heat pump and refrigeration cycle. In most cycles it undergoes phase transitions from a liquid to a gas and back again. Many working fluids have been used for such purposes.
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                               Why are refrigerant container's color coded?
+                                            </button>
+                                         </h2>
+                                         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               The color guideline is not a substitute for reading cylinder labels and markings.
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                               Is refrigerant toxic?
+                                            </button>
+                                         </h2>
+                                         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               Refrigerant is a tasteless, mostly odorless gas. When it is deeply inhaled, it can cut off vital oxygen to your cells and lungs. Limited exposure — for example, a spill on your skin or breathing near an open container — is only mildly harmful. However, you should try to avoid all contact with these types of chemicals.
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingfour">
+                                            <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                               Which refrigerant is used in air conditioning?
+                                            </button>
+                                         </h2>
+                                         <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               To remove chlorine from the refrigerant, manufacturers created another set of refrigerants called HFCs (or Hydro Fluro Carbons). Although they also have the potential for global warming, but still they are better than HCFCs as they do not deplete the ozone layer. The most common HFC used in air conditioners is R-410A.
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingfive">
+                                            <button class="accordion-buttons" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="true" aria-controls="collapsefive">
+                                               Which is the most commonly used refrigerant?
+                                            </button>
+                                         </h2>
+                                         <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               R-134a Refrigerant. 
+                                               Widely used in many air conditioning and refrigeration systems globally.
+                                               It is a hydro-fluorocarbon (HFC) that does not contribute to ozone depletion; also the first non-ozone-depleting fluorocarbon refrigerant to be commercialized.
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="accordion-items">
+                                         <h2 class="accordion-header" id="headingsix">
+                                            <button class="accordion-buttons collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                                               Which refrigerant gas is best?
+                                            </button>
+                                         </h2>
+                                         <div id="collapsesix" class="accordion-collapse collapse" aria-labelledby="headingsix" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                               To remove chlorine from the refrigerant, manufacturers created another set of refrigerants called HFCs (or Hydro Fluro Carbons). Although they also have the potential for global warming, but still, they are better than HCFCs as they do not deplete the ozone layer. The most common HFC used in air conditioners is R-410A.  
+                                            </div>
+                                         </div>
+                                      </div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+     <!-- product-details-area-end -->
+
+
+     <!-- product-slider-area-end -->
+     <div class="tp-product-slider pb-100" style="padding-bottom: 100px">  
+        <div class="container">
+           <div class="row justify-content-center">
+              <div class="col-xl-10">
+                 <div class="tp-product-slider-title">
+                    <h3 class="tp-product-slider-title pb-45">Related Products</h3>
+                 </div>
+              </div>
+           </div>
+           <div class="row justify-content-center">
+              <div class="col-xl-10">
+                 <div class="tp-product-price-slider">
+                    <div class="swiper-container product-slider-active">
+                       <div class="swiper-wrapper" style="justify-content: center;">  
+                          <div class="swiper-slide">
+                             <div class="tpproduct text-center mb-30">
+                                <div class="tpproduct__img">
+                                   <img class="w-100" src="507.png" alt="">   
+                                   <div class="tp-product-icon">
+                                      <a href="#">LEARN MORE</a>
+                                   </div>
+                                </div>
+                                <div class="tpproduct__meta">
+                                   <h4 class="tp-product-title"><a href="#">R-507 Refrigerant</a></h4> 
+                              
+                                   <div class="product-rating">
+                                     
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="tpproduct text-center mb-30">
+                                <div class="tpproduct__img">
+                                   <img class="w-100" src="422d.png" alt="">
+                                   <div class="tp-product-icon">
+                                      <a href="#">LEARN MORE</a>
+                                      
+                                   </div>
+                                </div>
+                                <div class="tpproduct__meta">
+                                   <h4 class="tp-product-title"><a href="#">R-422D Refrigerant</a></h4>
+                                   
+                                   <div class="product-rating">
+                                      
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div class="swiper-slide">
+                             <div class="tpproduct text-center mb-30">
+                                <div class="tpproduct__img">
+                                   <img class="w-100" src="404a.png" alt="">   
+                                   <div class="tp-product-icon">
+                                      <a href="#">LEARN MORE</a>
+                                     
+                                   </div>
+                                </div>
+                                <div class="tpproduct__meta">
+                                   <h4 class="tp-product-title"><a href="#">R-404A Refrigerent</a></h4>  
+                                </div>
+                             </div>
+                          </div>
+                         
+                         
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+
+
+
+  
+</div>  
+<footer class="footer pt-5 mt-5">
+    <div class="container">
+      <div class=" row">
+        <div class="col-md-3 mb-4 ms-auto">
+          <div>
+            <a href="">
+              <img src="igaslogo.png" class="mb-3 footer-logo" alt="main_logo"> 
+            </a> 
+            <h6 class="font-weight-bolder mb-4">iGas USA - We Cool The World</h6>
+          </div>
+          <div>
+            <ul class="d-flex flex-row ms-n3 nav">
+              <li class="nav-item">
+                <a class="nav-link pe-1" href="" >
+                  <i class="fab fa-facebook text-lg opacity-8"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-1" href="">
+                  <i class="fab fa-twitter text-lg opacity-8"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-1" href="">
+                  <i class="fab fa-dribbble text-lg opacity-8"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-1" href="">
+                  <i class="fab fa-github text-lg opacity-8"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-1" href="">
+                  <i class="fab fa-youtube text-lg opacity-8"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-6 mb-4">
+          <div>
+            <h6 class="text-sm">Company</h6>
+            <ul class="flex-column ms-n3 nav">
+              <li class="nav-item">
+                <a class="nav-link" href="refrigerant.html">
+                   Refrigerent
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="reclamation.html">
+                  Reclamation
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="components.html">
+                  Components
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-6 mb-4">
+          <div>
+            <h6 class="text-sm">Information</h6>
+            <ul class="flex-column ms-n3 nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  Tel: +1.813.443.0757
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  Email: sales@igasusa.com
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  Fax: +1.813.886.7900
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                   
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-6 mb-4">
+          <div>
+            <h6 class="text-sm">Help & Support</h6>
+            <ul class="flex-column ms-n3 nav">
+              <li class="nav-item">
+                <a class="nav-link" href="contact-us.html">
+                  Contact Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="author.html">
+                 About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="oem">
+                  OEM
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">
+                  
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-6 mb-4 me-auto">
+          <div>
+            <h6 class="text-sm">Legal</h6>
+            <ul class="flex-column ms-n3 nav">
+              <li class="nav-item">
+                <a class="nav-link" href="" >
+                  Terms & Conditions
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">  
+                  Privacy Policy
+                </a>
+              </li>
+              <li class="nav-item">
+               
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="text-center">
+            <p class="text-dark my-4 text-sm font-weight-normal">
+            Copyright iGas. All Rights reserved <script>
+                document.write(new Date().getFullYear())
+              </script> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--   Core JS Files   -->
+<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
+
+
+
+
+<!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
+<script src="./assets/js/plugins/countup.min.js"></script>
+
+
+
+
+
+<script src="./assets/js/plugins/choices.min.js"></script>
+
+
+
+<script src="./assets/js/plugins/prism.min.js"></script>
+<script src="./assets/js/plugins/highlight.min.js"></script>
+
+
+
+<!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
+<script src="./assets/js/plugins/rellax.min.js"></script>
+<!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
+<script src="./assets/js/plugins/tilt.min.js"></script>
+<!--  Plugin for Selectpicker - ChoicesJS, full documentation here: https://github.com/jshjohnson/Choices -->
+<script src="./assets/js/plugins/choices.min.js"></script>
+
+
+<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
+<script src="./assets/js/plugins/parallax.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
+<!--  Google Maps Plugin    -->
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTTfWur0PDbZWPr7Pmq8K3jiDp0_xUziI"></script>
+<script src="./assets/js/material-kit.min.js?v=3.0.4" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+
+  if (document.getElementById('state1')) {
+    const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
+    if (!countUp.error) {
+      countUp.start();
+    } else {
+      console.error(countUp.error);
+    }
+  }
+  if (document.getElementById('state2')) {
+    const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
+    if (!countUp1.error) {
+      countUp1.start();
+    } else {
+      console.error(countUp1.error);
+    }
+  }
+  if (document.getElementById('state3')) {
+    const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
+    if (!countUp2.error) {
+      countUp2.start();
+    } else {
+      console.error(countUp2.error);
+    };
+  }
+</script>
+</body>
+
+</html>
